@@ -116,13 +116,13 @@ second digit: up
 third digit: left  
 fourth digit: down  
   
-bXXXX...XX → the X's form a number N. the last 2 X's form a number L.  
+bXXXX...XX → the Xs form a number N. the last 2 Xs form a number L.  
 N palindrome, L prime: left  
 N palindrome, L not prime: right  
 N not palindrome, L prime: up  
 N not palindrome, L not prime: down  
 
-cNKXXXX..XX → N is the number of X's, which will form a number Q. A sum S will be computed by starting from the first digit of Q and summing the first K digits of Q, jumping over K digits each time.
+cNKXXXX..XX → N is the number of Xs, which will form a number Q. A sum S will be computed by starting from the first digit of Q and summing the first K digits of Q, jumping over K digits each time.
 S % 4 == 0: left
 S % 4 == 1: up
 S % 4 == 2: right
