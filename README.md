@@ -135,7 +135,7 @@ The user first inputs the type of encryption, then the key that was used for enc
 Types of encryption:  
 - Caesar  
 - Vigenere 
-- Addition 
+- Addition  
 The addition decryption decrypts 2 numbers that were encrypted using the Caesar cypher then computes their sum. 
 
 #### 2-gram counter
