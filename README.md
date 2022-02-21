@@ -52,7 +52,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A 3-stage homework with multiple uses, able to draw the way followed through a maze, decode passwords, and to give information about the 2-grams found in a text.
+A 3-stage homework with multiple uses, able to draw the way followed through a maze, decode passwords, and to give information about the 2-grams found in a text.  
 <br>
 <a href="https://ocw.cs.pub.ro/courses/programare/teme_2021/tema2_2021_cbd">Assignment link.</a>
 
