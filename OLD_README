@@ -1,0 +1,52 @@
+Task 1:
+Am plecat de la ideea construirii unui vector miscari ce va memora
+in ce directie vrea fiecare cuvant sa mearga.
+Programul citeste intreaga instructiune si verifica, intai, cate cuvinte
+contine aceasta, formand apoi vectorul miscari cu dimensiunea aceasta.
+Am convenit ca urmatoarele numere corespund urmatoarelor miscari:
+1->dreapta
+2->sus
+3->stanga
+4->jos.
+Programul apoi citeste instructiunea caracter cu caracter pentru a
+delimita cuvintele, pe care apoi le da drept parametru functiilor
+corespunzatoare fiecarui tip de cuvant, care va returna directia
+in care trebuie sa o luam prin labirint.
+Deindata ce sunt cunoscute toate miscarile, acestea sunt date mai
+departe functiei printSolutie(), care construieste labirintul de
+dimensiunea ceruta si face miscarile indicate, ca apoi doar sa printeze
+matricea (labirintul).
+
+Task 2:
+Programul incepe prin detectarea tipului de encriptare al textului
+ce trebuie decriptat.
+
+In cazul in care este de tip Caesar, programul verifica pentru
+fiecare caracter din text daca este majuscula, minuscula sau cifra,
+ca apoi sa il transforme in caracterul decriptat.
+
+In cazul in care este de tip Vigenere, principiul este acelasi ca
+la cifrul Caesar, doar ca, de data asta, numarul cu care a fost
+rotit caracterul difera de la caracter la caracter, fiind dat
+de o parola. 
+
+In cazul in care este de tip Addition, numerele sunt intai decriptate
+folosind cifrul Caesar doar pentru cifre, apoi adunate cu o functie
+addNumbers(), care face adunarea acestora, scriind rezultatul la
+finalul sirului de caractere, care apoi este citit din punctul in
+care caracterele de '0' inceteaza a mai aparea.
+
+Task 3:
+Programul intai citeste tot input-ul si il trece intr-un string,
+pentru a fi prelucrat.
+Prelucrarea consta in utilizarea a 3 functii:
+replace_character() -> inlocuieste un caracter cu spatiu
+remove_character -> elimina de tot caracterul, suprascriindu-l cu
+ceea ce este in dreapta sa
+remove_excess_spaces -> elimina locurile unde sunt gasite spatii duble,
+lasand doar unul.
+Astfel, string-ului ii sunt intai eliminate toate caracterele considerate
+irelevante in aflarea n-gramelor: ! , ; ! \n.
+Apoi, ii sunt scoase spatiile duble.
+De-abia apoi, putem afla numarul de n-grame si de cate ori apare fiecare
+in cadrul textului.
