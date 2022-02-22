@@ -167,7 +167,7 @@ The user either types in the text or redirects the input from a file. The progra
 	```
 	
 * []() 2-gram counter:    
-	```sh
+	```
 	Input:
 	3
 	The weather is nice, the sun is nice too.
